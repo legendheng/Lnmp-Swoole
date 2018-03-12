@@ -228,7 +228,7 @@ cd /usr/local/nginx/html
 vim test.php
 ```
 * （9）在浏览器访问192.168.8.140/test.php即可（这里的ip记得修改）
-# 目标六：安装swoole()
+# 目标六：安装swoole
 * （1）首先下载安装必要的扩展
 ```php
 yum install php-pear php-devel httpd
