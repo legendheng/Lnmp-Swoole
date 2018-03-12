@@ -172,6 +172,10 @@ cd /usr/local/nginx/sbin
 ./nginx
 ```
 * （10）在浏览器访问192.168.8.140会提示安装成功
+* （11）如果访问不成功可以尝试关闭防火墙
+```php
+systemctl stop firewalld.service
+```
 # 目标五：配置通过nginx服务器访问php文件
 * （1）进入php的fpm安装目录修改php-fpm配置
 ```php
